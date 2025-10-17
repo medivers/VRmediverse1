@@ -122,6 +122,118 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &15253835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 176519902}
+    m_Modifications:
+    - target: {fileID: 861290386927604635, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_text
+      value: "Sala \nde \nespera"
+      objectReference: {fileID: 0}
+    - target: {fileID: 861290386927604635, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 90.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 861290386927604635, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 30.971197
+      objectReference: {fileID: 0}
+    - target: {fileID: 861290386927604635, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 90.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2904035848095037630, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_Name
+      value: sala de espera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115540468086568335, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: sceneName
+      value: ESCENA 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871878719861176145, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871878719861176145, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871878719861176145, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7202298726185961297, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 1a2fd85024b792842bc6093db2eda76b, type: 3}
 --- !u!1001 &47609145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148,7 +260,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60b064720bff88b449f64d49089b4cb1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.00001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60b064720bff88b449f64d49089b4cb1,
         type: 3}
@@ -666,8 +778,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: fdf3b4055a81e664e90f36ec02f6bf27, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -5494119595391213181, guid: 0283844b7f31f5844986978f756123b4, type: 3}
+    - {fileID: -8358390417870413273, guid: 0283844b7f31f5844986978f756123b4, type: 3}
+    - {fileID: 4701974587429972850, guid: 0283844b7f31f5844986978f756123b4, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0283844b7f31f5844986978f756123b4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874438467}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0283844b7f31f5844986978f756123b4, type: 3}
 --- !u!4 &176519902 stripped
@@ -1184,6 +1303,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 180fd01ad6d6e394594e57accf77d9b7,
     type: 3}
   m_PrefabInstance: {fileID: 637196347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &874438467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2601387130370439584, guid: 1a2fd85024b792842bc6093db2eda76b,
+    type: 3}
+  m_PrefabInstance: {fileID: 15253835}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &907292807
 GameObject:

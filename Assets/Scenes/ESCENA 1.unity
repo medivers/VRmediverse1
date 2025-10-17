@@ -1455,6 +1455,7 @@ GameObject:
   - component: {fileID: 465124829}
   - component: {fileID: 465124828}
   - component: {fileID: 465124831}
+  - component: {fileID: 465124832}
   m_Layer: 0
   m_Name: screen
   m_TagString: Untagged
@@ -1556,7 +1557,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465124826}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 525708feee352af41a3c065568b65864, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1584,6 +1585,18 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &465124832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465124826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe1eb32769bfb74bab26b97b00576b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &637196347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3805,6 +3818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: alogenico
       objectReference: {fileID: 0}
+    - target: {fileID: 3115540468086568335, guid: 1a2fd85024b792842bc6093db2eda76b,
+        type: 3}
+      propertyPath: sceneName
+      value: TRASPLANTE ALOGENICO
+      objectReference: {fileID: 0}
     - target: {fileID: 8871878719861176145, guid: 1a2fd85024b792842bc6093db2eda76b,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -5394,6 +5412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: autologo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5304138717727527003, guid: a1fee25960b5eca4d959a1a797e46671,
+        type: 3}
+      propertyPath: sceneName
+      value: TRASPLANTE AUTOLOGO
       objectReference: {fileID: 0}
     - target: {fileID: 5366685085447881722, guid: a1fee25960b5eca4d959a1a797e46671,
         type: 3}
