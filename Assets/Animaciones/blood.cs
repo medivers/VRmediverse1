@@ -4,27 +4,35 @@ public class blood : MonoBehaviour
 {
     public AudioSource audioSource;   // Asigna el AudioSource desde el Inspector
     private bool isGazedAt = false;   // Detecta si el usuario está mirando
-    private bool hasPlayed = false;   // Evita que se repita
 
     // Llamado cuando el GazeManager apunta a este objeto
     public void OnPointerEnterXR()
     {
         isGazedAt = true;
-        PlayAudioOnce();
+        PlayAudio();
     }
 
     // Llamado cuando el GazeManager deja de apuntar al objeto
     public void OnPointerExitXR()
     {
         isGazedAt = false;
+        StopAudio();
     }
 
-    private void PlayAudioOnce()
+    private void PlayAudio()
     {
-        if (isGazedAt && !hasPlayed && audioSource != null)
+        if (audioSource != null)
         {
+            audioSource.time = 0f; // Reinicia el audio desde el principio
             audioSource.Play();
-            hasPlayed = true;
+        }
+    }
+
+    private void StopAudio()
+    {
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
         }
     }
 }
