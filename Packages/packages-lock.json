@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.google.xr.cardboard": {
-      "version": "file:C:/Users/GameDevLab/Downloads/cardboard-xr-plugin-1.30.1 (1)/cardboard-xr-plugin-1.30.1",
+      "version": "file:C:/Users/Propietario/Downloads/cardboard-xr-plugin-1.30.1/cardboard-xr-plugin-1.30.1",
       "depth": 0,
       "source": "local",
       "dependencies": {

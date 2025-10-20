@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/ESCENA 1.unity
     guid: 358f0b6c5a1333342afe2232c565ef73
   - enabled: 1
-    path: Assets/Scenes/TRASPLANTE ALOGENICO.unity
+    path: Assets/Scenes/ALOGENICO.unity
     guid: 9b996f8d92d6dbd409f45307d64c3d14
   - enabled: 1
-    path: Assets/Scenes/TRASPLANTE AUTOLOGO.unity
+    path: Assets/Scenes/AUTOLOGO.unity
     guid: 480835c0738f5354b94791a6735b422a
   - enabled: 1
     path: Assets/Scenes/DONANTE.unity
