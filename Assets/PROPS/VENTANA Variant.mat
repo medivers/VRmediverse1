@@ -30,8 +30,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _DstBlendAlpha: 10
+    m_Colors:
+    - _Color: {r: 0.5580883, g: 0.70629114, b: 0.8896056, a: 0.36734694}
   m_BuildTextureStacks: []
 --- !u!114 &3115563853530624176
 MonoBehaviour:

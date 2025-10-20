@@ -1343,6 +1343,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 754781462}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 951ebd1cfa607c64f90375e6d98e53fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754781465}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 951ebd1cfa607c64f90375e6d98e53fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754781464}
   m_SourcePrefab: {fileID: 100100000, guid: 951ebd1cfa607c64f90375e6d98e53fd, type: 3}
 --- !u!1 &754781461 stripped
 GameObject:
@@ -1467,6 +1475,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &754781464
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754781461}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.10519398
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0.0019208395, y: 0.44150788, z: 4.123192e-11}
+--- !u!114 &754781465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754781461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd7d0b0acf6983489569ace34609898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 754781463}
+  audioSource: {fileID: 754781462}
 --- !u!1 &907292807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,15 +1537,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907292807}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.3459074, z: -0, w: 0.93826866}
-  m_LocalPosition: {x: 2.14, y: 1.639, z: 1.586}
+  m_LocalRotation: {x: -0, y: 0.23425119, z: -0, w: 0.97217613}
+  m_LocalPosition: {x: 1.83, y: 1.639, z: 1.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1536363277}
   - {fileID: 959308593}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 40.474, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 27.095, z: 0}
 --- !u!114 &907292809
 MonoBehaviour:
   m_ObjectHideFlags: 0

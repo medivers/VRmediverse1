@@ -3,43 +3,47 @@ using UnityEngine.Video;
 
 public class ActivateMaquinaAferesis : MonoBehaviour
 {
-    [Header("Referencia al objeto SCREEN con el VideoPlayer")]
-    public GameObject screenObject;
+    [Header("Asignar desde el Inspector")]
+    public GameObject screen;          // Objeto con el video (RawImage, mesh, etc.)
+    public VideoPlayer videoPlayer;    // Componente VideoPlayer del screen
 
-    private VideoPlayer videoPlayer;
-    private bool videoStarted = false; // bandera para evitar reinicios
+    private bool hasStarted = false;   // Evita reiniciar el video si ya se activó
 
-    private void Start()
+    void Start()
     {
-        if (screenObject != null)
-        {
-            videoPlayer = screenObject.GetComponent<VideoPlayer>();
-            screenObject.SetActive(false); // SCREEN inicia oculto
-        }
+        if (screen != null)
+            screen.SetActive(false); // Oculta la pantalla al iniciar
+
+        if (videoPlayer != null)
+            videoPlayer.loopPointReached += OnVideoFinished; // Detecta cuando termina el video
     }
 
-    // Cuando la cámara mira este objeto (la máquina)
+    // Llamado por el GazeManager cuando se mira el objeto
     public void OnPointerEnterXR()
     {
-        Debug.Log("Mirando la máquina de aféresis → mostrando pantalla");
-
-        // Solo inicia el video una vez
-        if (!videoStarted && screenObject != null)
+        if (!hasStarted)
         {
-            screenObject.SetActive(true);
+            hasStarted = true;
+            if (screen != null)
+                screen.SetActive(true);
 
             if (videoPlayer != null)
-            {
                 videoPlayer.Play();
-                videoStarted = true; // marca que ya se inició
-            }
         }
     }
 
-    // Cuando deja de mirarlo
+    // Si se deja de mirar, no pasa nada (el video sigue)
     public void OnPointerExitXR()
     {
-        // Ya no detenemos ni ocultamos el video, para que siga hasta el final
-        Debug.Log("Dejó de mirar la máquina, pero el video sigue reproduciéndose.");
+        // intencionalmente vacío
+    }
+
+    // Cuando el video termina
+    private void OnVideoFinished(VideoPlayer vp)
+    {
+        if (screen != null)
+            screen.SetActive(false);
+
+        hasStarted = false; // Permite volver a activarlo si el usuario vuelve a mirar
     }
 }
